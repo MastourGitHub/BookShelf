@@ -27,6 +27,10 @@ namespace BookShelf
                 }
                 return instance;
             }
+            set
+            {
+                instance = value;
+            }
 
 
         }
